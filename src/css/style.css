@@ -1,15 +1,21 @@
 #taskList {
-  display: inline-block;
+  display: flex;
+  flex-flow: column nowrap;
 }
 
-#taskList .taskcard {
+#taskList .taskCard {
   height: 40px;
   display: inline-flex;
 	align-items: center;
   font-size: 2em;
-  margin: 0.5em;
+  margin: 0.25em;
 }
 
-.taskcard span {
+.taskCard span {
   margin-left: 0.5em;
+}
+.taskCard .delete {
+  width: 20px;
+  height: 20px;
+  background: red;
 }
