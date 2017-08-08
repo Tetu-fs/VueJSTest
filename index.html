@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <link href="./src/css/style.css" rel="stylesheet" type="text/css">
+    <script src="https://unpkg.com/vue"></script>
+    <script src="./src/script.js"></script>
+    
+  </head>
+  <body>
+    <h1 id="title">ToDo on Vue</h1>
+    <div id="addTask">
+      <h1>Add Task</h1>
+      <input class="todoInput"
+      placeholder="タスクを入れる"
+      v-model="taskDescription"
+      v-on:keyup.Enter="addTask">
+    </div>
+    <div id="taskList">
+    </div>
+  </body>
+</html>

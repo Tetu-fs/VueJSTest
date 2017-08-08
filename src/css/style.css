@@ -1,0 +1,15 @@
+#taskList {
+  display: inline-block;
+}
+
+#taskList .taskcard {
+  height: 40px;
+  display: inline-flex;
+	align-items: center;
+  font-size: 2em;
+  margin: 0.5em;
+}
+
+.taskcard span {
+  margin-left: 0.5em;
+}
